@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+
+        
+    </script>
+    <title>Ridhwan's Website Portfolio</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="logo-text">RIDH<span class="rin">WAN</span></h1>
+        <nav class="nav">
+            <ul class="nav_links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#2" class="nav-link">About</a></li>
+                <li><a href="#portafolio" class="nav-link">Projects</a></li>
+                <li><a href="#last" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="homepage" id="1">
+        <div class="img">
+            <img src="img/ridhwan.png" alt="Picture Of Mohd Ridhwan" class="wan">
+        </div>
+        <div class="main-text">
+            <h6>Hello,  my name is</h6>
+            <h1><span class="gold-name">MOHD RIDHWAN</span></h1>
+            <h4>I'm your future <span class="future">Front-end Developer.</span></h4>
+        </div>
+        <div class="btn">
+            <a href="Mohd_Ridhwan's_Resume.pdf" target="_blank"><button class="btn-cta">DOWNLOAD CV</button></a>
+        </div>
+    </div>
+
+    <div class="icon-bar">
+        <a href="https://codepen.io/Rierinnz" target="_blank"><img src="img/codepen.png" alt="" class="icon1"></a>
+        <a href="https://www.linkedin.com/in/mohd-ridhwan-5119b1233/" target="_blank"><img src="img/linkedin.png" alt="" class="icon2"></a>
+        <a href="mailto:mhrdhwnn@gmail.com"><img src="img/email.png" alt="" class="icon3"></a>
+    </div>
+
+    <div class="about-me" id="2">
+        <img src="img/Line 3.png" alt="DecorationLine" class="line">
+        <h1>ABOUT ME</h1>
+        <p class="apple">I'm a student of New Media communication studies with specialities of web development and also web design.  Please have a look at my portfolio; hopefully it will impress you enough that we can collaborate in the future. </p>
+        <p class="apple2">Keep scrolling and check out my portfolio</p>
+       <img src="img/anadawan.png" alt="Picture Of Mohd Ridhwan" class="wan2">
+      <div class="btn-s">
+        <a href="#portafolio"><button class="scroll">SCROLL DOWN</button></a>
+      </div>
+    </div>
+
+    <div class="my-education" id="3"> 
+    
+        <h1>MY EDUCATION</h1>
+        <div class="img-gp">
+            <img src="img/IMG_20220625_191939.jpg" alt="GroupPictureOfMenFromMC111" class="pc-gp">
+            <img src="img/Rectangle 8.png" alt="" class="border-img" >
+        </div>
+        <div class="img-layout">
+            <img src="img/study-icon(new).png" alt="" class="st-icon">
+            <img src="img/text-layout(new).png" alt="" class="txt-layout">
+            <img src="img/text-layout(new).png" alt="" class="txt-layout2">
+        </div>
+        <div class="edu-logo">
+            <img src="img/pekan.png" alt="SMKPekanKotaBeludLogo" class="smk-pekan">
+            <img src="img/UITM-logo-20DC2B3831-seeklogo 1.png" alt="UiTMOfficialLogo" class="uitm-logo">
+        </div>
+        <div class="edu-text">
+            <p class="pear">DIPLOMA IN NEW MEDIA MEDIA COMMUNICATION AND CONTENTPRENEURSHIP</p>
+            <p class="pear2">Currently on my last year in Diploma New Media Communication and Contentpreneurship. <br>(2020 - present)</p>
+            <p class="pear3">SIJIL PELAJARAN MALAYSIA</p>
+            <p class="pear4">SMK Pekan Kota Belud.<br> (2015 - 2019)</p>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+<div class="container-skills" id="skills">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="skills-text">
+          <h1 class="skills-title underline"><span class="gold">MY SKILLS</h1></span>
+          <dl class="skills-list">
+            <dt class="skill-name">HTML (Advanced)</dt>
+            <dd class="skill-percent skill-percent-html" data-percent="95%"></dd>
+            <dt class="skill-name">CSS (Advanced)</dt>
+            <dd class="skill-percent skill-percent-css" data-percent="92%"></dd>
+            <dt class="skill-name">jQuery (Intermediate)</dt>
+            <dd class="skill-percent skill-percent-jquery" data-percent="81%"></dd>
+            <dt class="skill-name">SCSS (Intermediate)</dt>
+            <dd class="skill-percent skill-percent-scss" data-percent="72%"></dd>
+            <dt class="skill-name">Javascript (Intermediate)</dt>
+            <dd class="skill-percent skill-percent-javascript" data-percent="65%"></dd>
+            <dt class="skill-name">Wordpress/Wix (Intermediate)</dt>
+            <dd class="skill-percent skill-percent-wordpress" data-percent="80%"></dd>
+  
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+        <section class="workex" id="5">
+            <h1 class="title">WORK/EXTRACURRICULAR</h1>
+            <div class="cn">
+                <img src="img/cnwitharrow.png" alt="" >
+            </div>
+            <div class="cntext">
+                <h1 id="c1">WORK EXPERIENCES</h1>
+                <h1 id="c2">EXTRACURRICULAR ACTIVITIES</h1>
+                <p id="w1"><span>Web Developer/Web Designer | Argania (2021)</span>  <br> * Create and design a website for Argania's products.</p>
+                <p id="w2"><span>Animator/Script Writer | I Destinasi Sdn Bhd (IDSB) (2021)</span>  <br> * Animate an Animated Explainer Video <br>and writing a Video Script.</p>
+                <p id="w3"><span>Graphic Designer | Freelancing (2019)</span>  <br> *  Design a Flyer Poster for Burger Anak Kampung and <br>Motivational Speech poster for National Day.
+                </p>
+                <p id="e1"><span>LENSA2022 (2022)</span> <br> * Leader of Mobile Legend's Registration Team <br>and manage player registration. </p>
+                <p id="e2"><span>GAMEINC2022 (2022) </span><br> * Partake in GameInc22 as a Beta Tester <br>
+                 * Partake as a Game Developer (KOCAK) </p>
+                <p id="e3"><span>Beta Interactive Multimedia Exposition (BIME) (2022) </span><br> * Member of Design Team <br>
+                   * Working on a Poster for BIME <br>
+                    * Working on a fully functional website for BIME </p>
+            </div>
+        </section>
+
+        <h1 class="omg">PORTFOLIO</h1>
+
+        <div class="container-img" id="portafolio">
+            
+            <div class="gallery">
+              <a href="port/eh1.png" data-lightbox="models" data-title="Made a website by using Wix for Argania's products.">
+                <img src="port/argania.png" alt="">
+              </a>
+              <a href="port/eh2.png" data-lightbox="models" data-title="Made a website proposal for Beta Interactive Multimedia Exposition (BIME).">
+                <img src="port/bime.png" alt="">
+              </a>
+              <a href="port/eh3.jpg" data-lightbox="models" data-title="Design a food poster for Burger Anak Kampung.">
+                <img src="port/burger.png" alt="">
+              </a>
+              <a href="port/eh4.png" data-lightbox="models" data-title="Made a simple calculator app (Visit my CodePen for more).">
+                <img src="port/calculator.png" alt="">
+              </a>
+              <a href="port/eh5.png" data-lightbox="models" data-title="Made a simple keyboard hero mini game (Visit my CodePen for more).">
+                <img src="port/Keyboard Hero.png" alt="">
+              </a>
+              <a href="port/eh6.jpg" data-lightbox="models" data-title="Design a poster for a self made game named Kocak.">
+                <img src="port/Kocak.png" alt="">
+              </a>
+              <a href="port/eh7.png" data-lightbox="models" data-title="Made a simple Pong game (Visit my CodePen for more).">
+                <img src="port/Pong.png" alt="">
+              </a>
+              <a href="port/eh8.png" data-lightbox="models" data-title="Made a simple quick math quiz (Visit my CodePen for more).">
+                <img src="port/Quiz.png" alt="">
+              </a>
+              <a href="port/eh9.png" data-lightbox="models" data-title="Made a simple rock, paper scissors game (Visit my CodePen for more).">
+                <img src="port/Paper.png" alt="">
+              </a>
+              <a href="port/eh10.png" data-lightbox="models" data-title="Made a simple snake game (Visit my CodePen for more).">
+                <img src="port/Snake.png" alt="">
+              </a>
+              <a href="port/eh11.png" data-lightbox="models" data-title="Made a simple Tic Tac Toe game (Visit my CodePen for more).">
+                <img src="port/TTT.png" alt="">
+              </a>
+              <a href="port/eh12.png" data-lightbox="models" data-title="Made a To-do-list App (Visit my CodePen for more).">
+                <img src="port/TOdolsit.png" alt="">
+              </a>
+              
+              
+             
+            </div>
+          </div>
+
+     <div class="contact" id="last">
+        <h1>Want to work with me?</h1>
+        <p>if you're interested in my work and would <br>like to work with me, kindly click<br> 
+            the button below.</p>
+            <a href="https://wa.me/60103848382" target="_blank"><button class="contek"><span>Send me a message!</span></button></a>
+            <div class="line-ctc">
+                <img src="img/ctc-line.png" alt="">
+            </div>
+            <div class="nav2">
+                <h1 class="logo-text2">RIDH<span class="rin2">WAN</span></h1>
+                <a href="#"><h3 class="chome">HOME</h3></a>
+                <h3 class="cabout">ABOUT</h3>
+                <p class="a1"><a href="#">About me</a></p>
+                <p class="a2"><a href="#3">My education</a></p>
+                <p class="a3"><a href="#skills">My skills</a></p>
+                <h3 class="cproject">PROJECTS</h3>
+                <p class="cport"><a href="#portafolio">Portfolio</a></p>
+            </div>
+     </div>
+
+     <div class="footer">
+        <p>@Designed by <strong>Mohd Ridhwan</strong> 2022</p>
+     </div>
+</div> 
+
+<a href="#" class="to-top">
+    <img src="img/totop.png" alt="">
+</a>
+
+<script src="lightbox-plus-jquery.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html> 
