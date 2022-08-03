@@ -913,3 +913,316 @@ header {
     left: 22rem;
     font-size: 80px;
   }
+
+  /* responsive mobile */
+
+  @media (max-width: 860px) {
+    .icon-bar {
+        position: relative;
+        display: flex;
+        top: 350rem;
+        left: 84px;
+    }   
+    .nav {
+        display: none;
+    }
+    .logo-text {
+        padding-left: 5rem;
+    }
+    .wan {
+        width: 150px;
+        height: 150px;
+        margin-left: 6.8em;
+        margin-top: 1rem;
+    }
+    .main-text h6 {
+        position: relative;
+        width: 300px;
+        left: -5.5rem;
+    }
+    .gold-name {
+        position: relative;
+        color: #EEC643;
+        font-size: 38px;
+        left: -5.2rem;
+        top: -6.5rem;
+    }
+    .pls {
+        position: relative;
+        left: -19rem;
+    }
+    .main-text h4 {
+        position: relative;
+        color: black;
+        font-size: 28px;
+        width: 400px;
+        font-weight: 100;
+        padding-top: 1rem;
+        text-align: center;
+        left: -12rem;
+        top: -7rem;
+    }
+    .btn-cta {
+        position: relative;
+        background: #EEC643;
+        color: white;
+        cursor: pointer;
+        border: 1px solid #EEC643;
+        padding: 0.8rem 0.6rem;
+        border-radius: 5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        width: 10rem;
+        transition: all 0.3s ease 0s;
+        margin-left: -4rem;
+        top: -8rem;
+    }
+    .btn-cta:hover {
+        background: #EEC643;
+        transform: scale(1.1);
+    }
+    .about-me h1 {
+        text-align: center; 
+        color: black;
+        padding-top: 2rem;
+        font-size: 32px;
+        position: relative;
+        left: 0.2rem;
+    }
+    .wan2 {
+        position: relative;
+        height: 220px;
+        width: 220px;
+        top: -42rem;
+        left: 4.8rem;
+    }
+    .apple {
+        width: 300px;
+        text-align: justify;
+        left: 2.2rem;
+        position: relative;
+        top: 17rem;
+        font-size: 24px;
+        color: black;
+    }
+    .about-me {
+        height: 110vh;
+        width: 360px;
+    }
+    .btn-s {
+        margin-top: -20rem;
+        margin-left: 6.5rem;
+        cursor: pointer;
+    }
+    .scroll {
+        cursor: pointer;
+        position: relative;
+        background: black;
+        color: white;
+        cursor: pointer;
+        padding: 0.8rem 0.6rem;
+        border-radius: 5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        width: 10rem;
+        transition: all 0.3s ease 0s;
+        border: none;
+    }
+    .scroll:hover {
+       transform: scale(0.9);
+    }
+    .my-education h1 {
+        text-align: center; 
+        color: #EEC643;
+        font-size: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .img-gp {
+        display: none;
+    }
+    .scrolling-active{
+        display: none;
+    }
+    
+    .scrolling-active .header{
+        display: none;
+
+    }
+    
+    .scrolling-active .nav a{
+        display: none;
+    }
+    
+    .scrolling-active .nav a:hover{
+        display: none;
+    }
+    
+    .scrolling-active .nav-link::after{
+        display: none;
+    }
+    .scrolling-active .logo-text {
+        display: none;
+    }
+    
+    .scrolling-active .rin {
+        display: none;
+    }
+    .my-education {
+        min-height: 70vh;
+        width: 114vh;
+    }
+    .my-education h1 {
+        text-align: center; 
+        color: #EEC643;
+        font-size: 40px;
+        position: relative;
+        left: -13.2rem;
+    }
+    .txt-layout {
+        display: none;
+     }
+     .txt-layout2 {
+        display: none;
+     }
+     .st-icon {
+        position: relative;
+        left: 1.5rem;
+        top: 120px;
+        width: 80px;
+        height: 240px;
+     }
+    .smk-pekan {
+       display: none;
+    }
+    .uitm-logo {
+        display: none;
+    }
+    .pear {
+        position: relative;
+        text-align: center;
+        width: 300px;
+        left: -57rem;
+        top: 25.7rem;
+        font-weight: 500;
+    }
+    .pear2 {
+        position: relative;
+        left: -54rem;
+        top: 56rem;
+        font-size: 12px;
+        width: 200px;
+    }
+    .pear3 {
+        position: relative;
+        width: 300px;
+        left: -54rem;
+        top: 74rem;
+    }
+    .pear4 {
+        position: relative;
+        top: 87.4rem;
+        left: -54rem;
+    }
+    .gold {
+        position: relative;
+        font-size: 40px;
+        left: 4.2rem;
+    }
+    .workex {
+        height: 120vh;
+    }
+    .title {
+        font-size: 36px;
+        position: relative;
+        left: 0.1rem;
+    }
+    .cn {
+        display: none;
+    }
+    #c1 {
+        position: relative;
+        top: -13rem;
+        left: 0.2rem;
+        font-size: 18px;
+    }
+    #w1 {
+        position: relative;
+        top: -220px;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    #w2 {
+        position: relative;
+        top: -210px;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    #w3 {
+        position: relative;
+        top: -200px;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    #c2 {
+        position: relative;
+        top: 0.3rem;
+        left: 0.2rem;
+        font-size: 18px;
+    }
+    #e1 {
+        position: relative;
+        top: -110px;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    #e2 {
+        position: relative;
+        top: -100px;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    #e3 {
+        position: relative;
+        top: -90px;
+        left: 0.5rem;
+        font-size: 12px;
+    }
+    .omg {
+        font-size: 40px;
+    }
+    .a1, .a2, .a3 {
+        display: none;
+    }
+    .cport {
+        display: none;
+    }
+    .chome {
+        position: relative;
+        left: 9.5rem;
+        top: -120px;
+        color: #EEC643;
+    }
+    .cabout {
+        position: relative;
+        left: 9.3rem;
+        top: -120px;
+        color: #EEC643;
+    }
+    .cproject {
+        position: relative;
+        left: 8.6rem;
+        top: -120px;
+        color: #EEC643;
+    }
+    .line-ctc img {
+        width: 310px;
+    }
+    
+
+   
+
+
+
+    
+  }
